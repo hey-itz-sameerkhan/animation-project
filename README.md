@@ -29,7 +29,5 @@ An immersive, scroll-driven 3D animation experience built using **HTML**, **CSS*
 
 ## 📸 Preview
 
-> 💡 You can include a GIF or screenshot of your animation here to visually showcase it.
+🌐 **Live Demo**: [Click here to view the project](https://zingy-sunburst-a58336.netlify.app)
 
-```html
-[![](preview.gif)](https://your-deployment-link.netlify.app)
