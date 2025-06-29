@@ -33,4 +33,4 @@ An immersive, scroll-driven 3D animation experience built using **HTML**, **CSS*
 
 ```html
 [![](preview.gif)](https://your-deployment-link.netlify.app)
-![cover page pic](https://github.com/user-attachments/assets/3e368840-20e5-4957-8b4f-9e26ab7b3586)
+![cover page pic](https://github.com/user-attachments/assets/6d18b992-a587-4e69-b74a-1cd710901d2c)
