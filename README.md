@@ -18,6 +18,10 @@ An immersive, scroll-driven 3D animation experience built using **HTML**, **CSS*
 
 ---
 
+## 📸 Preview
+
+![cover page pic](https://github.com/user-attachments/assets/f5baaa9c-0a92-42a7-8713-4fd6ac3c8935)
+
 ## 🛠️ Technologies Used
 
 | Frontend | Animation | Rendering |
@@ -27,10 +31,6 @@ An immersive, scroll-driven 3D animation experience built using **HTML**, **CSS*
 
 ---
 
-## 📸 Preview
+🌐 **Live Demo**: [Click here to view the project](https://zingy-sunburst-a58336.netlify.app)
 
-> 💡 You can include a GIF or screenshot of your animation here to visually showcase it.
 
-```html
-[![](preview.gif)](https://your-deployment-link.netlify.app)
-![cover page pic](https://github.com/user-attachments/assets/6d18b992-a587-4e69-b74a-1cd710901d2c)
