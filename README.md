@@ -78,7 +78,7 @@ This project is available and released under the [MIT License](LICENSE).
 ## 🙏 Special Thanks
   
 Inspired by the incredible mentors and community at **[Sheryians Coding School](https://www.sheryians.com/)** ✨  
-Special thanks to  Adil Khan for nurturing creative freedom and next-level front-end skills.
+Special thanks to **Adil Khan** for nurturing creative freedom and next-level front-end skills.
 
 
 ---
