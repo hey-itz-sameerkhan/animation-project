@@ -4,15 +4,19 @@ function locomotive() {
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector("#main"),
   smooth: true,
+  multiplier: 1, // don't make scroll too fast
   smartphone: {
     smooth: true,
-    breakpoint: 0, // enable for all sizes
+    direction: "vertical",
+    breakpoint: 0
   },
   tablet: {
     smooth: true,
-    breakpoint: 0,
-  },
+    direction: "vertical",
+    breakpoint: 0
+  }
 });
+
 
 
   locoScroll.on("scroll", ScrollTrigger.update);
