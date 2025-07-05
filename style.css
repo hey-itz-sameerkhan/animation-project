@@ -1,75 +1,208 @@
-{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Gilroy', sans-serif; }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden !important;
+    background: #f1f1f1;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  #main {
+    position: relative;
+    overflow: hidden !important;
+  }
+  
+  canvas {
+    position: relative;
+    z-index: 9;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  /* NAVIGATION */
+  #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    padding: 0 5vw;
+    /* background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(8px); */
+  }
+  
+  #nav h3 {
+    font-family: gilroy;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  #nav button {
+    padding: 6px 18px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* PAGE STRUCTURE */
+  #page, #page1, #page2, #page3 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f1f1f1;
+  }
+  
+  /* SCROLLING TEXT ANIMATION */
+  #loop {
+    font-family: gilory;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    height: 25%;
+    width: 100%;
+    font-size: 100px;
+    white-space: nowrap;
+    /* animation: anim 15s linear infinite;
+    gap: 60px;
+    z-index: 10; */
+  }
+  
+  #loop>h1 {
+    font-weight: 400;
+    animation-name: anim;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-weight: 400;
+  }
+  
+  #loop>h1>span {
+    -webkit-text-stroke: 1.2px #000;
+    color: transparent;
+    font-weight: 500;
+  }
+  
+  @keyframes anim {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* PAGE TEXT POSITIONS */
+  #page > h3,
+  #page > h4 {
+    position: absolute;
+    font-weight: 400;
+    color: #7c7c7c;
+    /* font-size: 1.2rem; */
+  }
+  
+  #page > h3 {
+    font-family: gilroy;
+    top: 55%;
+    left: 5%;
+  }
+  
+  #page > h4 {
+    color: #000;
+    font-weight: 100;
+    font-family: gilroy;
+    top: 62%;
+    left: 25%;
+  }
+  
+  /* CONTENT POSITIONS (STATIC) */
+  #page1 #right-text,
+  #page2 #text1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  
+  #page1 #left-text,
+  #page2 #text2,
+  #page3 #text3 {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    text-align: end;
+  }
+  
+  #page1 h1,
+  #page2 h1,
+  #page3 h1 {
+    line-height: 1.5;
+    font-size: 50px;
+  }
+  
+  #page1 h3,
+  #page2 h3,
+  #page3 h3,
+  #page1 #left-text h3,
+  #page2 p {
+    color: #7c7c7c;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
 
-
-html, body { height: 100%; width: 100%; }
-
-#main { position: relative; overflow: hidden; }
-
-#page, #page1, #page2, #page3 { position: relative; height: 100vh; width: 100vw; background-color: #f1f1f1; }
-
-canvas { position: relative; z-index: 9; max-width: 100vw; max-height: 100vh; }
-
-#loop { display: flex; position: absolute; top: 30%; height: 25%; width: 100%; font-size: 100px; white-space: nowrap; font-family: 'Gilroy', sans-serif; }
-
-#loop > h1 { font-weight: 400; animation: anim 15s linear infinite; }
-
-#loop > h1 > span { -webkit-text-stroke: 1.2px #000; color: transparent; font-weight: 500; }
-
-@keyframes anim { 0% { transform: translateX(0%); } 100% { transform: translateX(-100%); } }
-
-#nav { display: flex; align-items: center; justify-content: space-between; height: 7%; width: 100%; position: fixed; z-index: 99; padding: 0 30px; background: rgba(255, 255, 255, 0.5); backdrop-filter: blur(8px); }
-
-#nav > h3 { font-weight: 400; font-size: 22px; }
-
-#nav > button { padding: 6px 20px; border-radius: 50px; background-color: #000; color: #fff; border: none; cursor: pointer; transition: all 0.3s ease; }
-
-#nav > button:hover { background-color: #333; }
-
-#page > h3, #page > h4 { position: absolute; font-family: 'Gilroy', sans-serif; font-weight: 400; color: #7c7c7c; }
-
-#page > h3 { top: 55%; left: 5%; }
-
-#page > h4 { top: 62%; left: 25%; font-weight: 500; }
-
-#page1 #right-text, #page1 #left-text, #page2 #text1, #page2 #text2, #page3 #text3 { position: absolute; padding: 20px; }
-
-#page1 #right-text { top: 30%; left: 10%; }
-
-#page1 #left-text { top: 50%; right: 10%; text-align: end; }
-
-#page2 #text1 { top: 30%; left: 10%; }
-
-#page2 #text2 { top: 55%; right: 10%; text-align: end; }
-
-#page3 #text3 { top: 40%; right: 10%; text-align: end; }
-
-h1 { font-size: 50px; line-height: 1.5; }
-
-#page2 #text1 > h1 { font-size: 60px; }
-
-#page3 #text3 > h1 { font-size: 70px; }
-
-h3, h4, p { color: #7c7c7c; font-weight: 400; }
-
-/* Responsive Styles */ @media (max-width: 768px) { #loop { font-size: 50px; top: 20%; }
-
-#nav { flex-direction: column; height: auto; padding: 10px 20px; }
-
-#nav > h3 { font-size: 18px; }
-
-#nav > button { margin-top: 10px; padding: 5px 16px; font-size: 14px; }
-
-#page > h3 { top: 55%; left: 8%; font-size: 16px; }
-
-#page > h4 { top: 63%; left: 8%; font-size: 18px; }
-
-h1 { font-size: 32px !important; }
-
-#page2 #text1 > h1, #page3 #text3 > h1 { font-size: 36px !important; }
-
-#page1 #right-text, #page1 #left-text, #page2 #text1, #page2 #text2, #page3 #text3 { position: relative; top: auto; left: auto; right: auto; text-align: left; padding: 20px; }
-
-#page1 #left-text, #page2 #text2, #page3 #text3 { text-align: left; }
-
-canvas { height: auto; width: 100%; } }
-
+  #page3>#text3{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    text-align: end;
+}
+  #page3>#text3>h3{
+    color: #7c7c7c;
+    font-weight: 400;
+}
+  
+  /* RESPONSIVE SCALE ONLY – No Layout Change */
+  @media (max-width: 768px) {
+    html {
+      font-size: 85%;
+    }
+  
+    #loop {
+      font-size: 12vw;
+    }
+  
+    #nav h3 {
+      font-size: 1rem;
+    }
+  
+    #nav button {
+      font-size: 0.9rem;
+      padding: 5px 16px;
+    }
+  
+    #page > h3, #page > h4 {
+      font-size: 1rem;
+    }
+  
+    #page1 h1, #page2 h1, #page3 h1 {
+      font-size: 6.5vw;
+    }
+  
+    #page2 p {
+      font-size: 0.9rem;
+    }
+  }
+  
