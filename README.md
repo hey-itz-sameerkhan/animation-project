@@ -31,6 +31,6 @@ An immersive, scroll-driven 3D animation experience built using **HTML**, **CSS*
 
 ---
 
-🌐 **Live Demo**: [Click here to view the project](https://zingy-sunburst-a58336.netlify.app)
+🌐 **Live Demo**: [Click here to view the project](https://interactive-3d-scroll-animation.netlify.app/)
 
 
