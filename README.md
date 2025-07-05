@@ -24,21 +24,11 @@ Built to perform seamlessly across all screen sizes — with real-world deployme
 | 💻 Frontend   | HTML5, CSS3, JavaScript                  |
 | 🎬 Animation  | GSAP (ScrollTrigger), requestAnimationFrame |
 | 🖼️ Rendering  | Canvas API, Image Sequence               |
-| 🧰 Tools      | Git, GitHub, Netlify,               |
+| 🧰 Tools      | Git, GitHub, Netlify              |
 
 ---
 
-## 📂 Project Structure
 
-```bash
-animation-project/
-├── assets/                 # Image sequence used for animation
-├── css/                    # Main stylesheet
-├── js/                     # Animation logic and scroll control
-├── index.html              # Main HTML file
-└── README.md               # Project documentation (you are here!)
-
----
 
 ## 📸 Preview
 
@@ -89,7 +79,7 @@ This project is available and released under the [MIT License](LICENSE).
 ## 🙏 Special Thanks
   
 Inspired by the incredible mentors and community at **[Sheryians Coding School](https://www.sheryians.com/)** ✨  
-Special thanks for Adil Khan nurturing creative freedom and next-level front-end skills.
+Special thanks to  Adil Khan for nurturing creative freedom and next-level front-end skills.
 
 
 ---
@@ -107,5 +97,17 @@ This is a **fully enhanced and production-ready rebuild** by Sameer Khan, featur
 > This project isn’t just about clean code — it’s about reimagining scroll-based storytelling with real-world usability and seamless performance.
 
 
+---
+## 📂 Project Structure
+
+```bash
+animation-project/
+├── assets/                 # Image sequence used for animation
+├── css/                    # Main stylesheet
+├── js/                     # Animation logic and scroll control
+├── index.html              # Main HTML file
+└── README.md               # Project documentation (you are here!)
+
+---
 
 
