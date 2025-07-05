@@ -1,22 +1,29 @@
 function locomotive() {
   gsap.registerPlugin(ScrollTrigger);
  
-const locoScroll = new LocomotiveScroll({
-  el: document.querySelector("#main"),
-  smooth: true,
-  multiplier: 1, // don't make scroll too fast
-  smartphone: {
+ const locoScroll = new LocomotiveScroll({
+    el: document.querySelector("[data-scroll-container]"),
     smooth: true,
-    direction: "vertical",
-    breakpoint: 0
-  },
-  tablet: {
-    smooth: true,
-    direction: "vertical",
-    breakpoint: 0
-  }
-});
-
+    multiplier: 1,
+    smoothMobile: true,
+    smartphone: {
+      smooth: true,
+      direction: "vertical",
+      breakpoint: 0,
+    },
+    tablet: {
+      smooth: true,
+      direction: "vertical",
+      breakpoint: 0,
+    },
+    touchMultiplier: 2
+  });
+  
+  
+  setTimeout(() => {
+    locoScroll.update();
+  }, 500);
+  
 
 
   locoScroll.on("scroll", ScrollTrigger.update);
@@ -458,7 +465,4 @@ gsap.to("#page3",{
   }
 })
 
-setTimeout(() => {
-  locoScroll.update();
-}, 1000);
 
