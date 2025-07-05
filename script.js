@@ -1,16 +1,19 @@
 function locomotive() {
   gsap.registerPlugin(ScrollTrigger);
  
- const locoScroll = new LocomotiveScroll({
+const locoScroll = new LocomotiveScroll({
   el: document.querySelector("#main"),
   smooth: true,
   smartphone: {
     smooth: true,
+    breakpoint: 0, // enable for all sizes
   },
   tablet: {
     smooth: true,
+    breakpoint: 0,
   },
 });
+
 
   locoScroll.on("scroll", ScrollTrigger.update);
 
