@@ -457,3 +457,8 @@ gsap.to("#page3",{
     scroller:`#main`
   }
 })
+
+setTimeout(() => {
+  locoScroll.update();
+}, 1000);
+
