@@ -101,16 +101,5 @@ This is a **fully enhanced and production-ready rebuild** by Sameer Khan, featur
 
 
 ---
-## 📂 Project Structure
-
-```bash
-animation-project/
-├── assets/                 # Image sequence used for animation
-├── css/                    # Main stylesheet
-├── js/                     # Animation logic and scroll control
-├── index.html              # Main HTML file
-└── README.md               # Project documentation (you are here!)
-
----
 
 
