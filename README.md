@@ -1,4 +1,4 @@
-# 🎬 Interactive 3D Scroll Animation
+# 🚀 Interactive 3D Scroll Animation
 ![Last Commit](https://img.shields.io/github/last-commit/hey-itz-sameerkhan/animation-project)
 ![GitHub Stars](https://img.shields.io/github/stars/hey-itz-sameerkhan/animation-project?style=social)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -34,7 +34,8 @@ Built to perform seamlessly across all screen sizes — with real-world deployme
 
 > *(Click to zoom if viewing on GitHub)*
 
-![project-preview](https://github.com/user-attachments/assets/f5baaa9c-0a92-42a7-8713-4fd6ac3c8935)
+![animation project cover page pic](https://github.com/user-attachments/assets/97b9a6eb-20d9-4a5f-ad45-42ee3c4b318d)
+
 
 ---
 
@@ -86,6 +87,8 @@ Special thanks to **Adil Khan** for nurturing creative freedom and next-level fr
 ## 🏁 Final Credits & Developer Touch
 
 Developed with ❤️ by **Sameer Khan**
+
+![animatiopn project github logo dark mode](https://github.com/user-attachments/assets/b4f0ffda-e424-4876-abdd-38f71ac8b7b3)
 
 This is a **fully enhanced and production-ready rebuild** by Sameer Khan, featuring:
 
