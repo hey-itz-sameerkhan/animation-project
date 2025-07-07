@@ -65,7 +65,7 @@ Built to perform seamlessly across all screen sizes — with real-world deployme
 ## 📽️ Project Presentation
 
 Looking for a quick walkthrough or visual explanation?  
-👉 [Click here to view the official Project PPT](https://docs.google.com/presentation/d/16biSpjg3Cb9LjwlHpnhPdEzIFVAuvVer/edit?usp=drive_link)
+👉 [Click here to view the official Project PPT in Presentation Mode](https://docs.google.com/presentation/d/16biSpjg3Cb9LjwlHpnhPdEzIFVAuvVer/present)
 
 It includes an overview of:
 - Features & architecture
@@ -74,8 +74,6 @@ It includes an overview of:
 - Project evolution and more!
 
 ---
-
-
 
 ## 🌐 Live Demo
 
