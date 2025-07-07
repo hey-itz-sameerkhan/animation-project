@@ -1,4 +1,5 @@
 # 🚀 Interactive 3D Scroll Animation
+
 ![Last Commit](https://img.shields.io/github/last-commit/hey-itz-sameerkhan/animation-project)
 ![GitHub Stars](https://img.shields.io/github/stars/hey-itz-sameerkhan/animation-project?style=social)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -60,6 +61,20 @@ Built to perform seamlessly across all screen sizes — with real-world deployme
   Improved UX, fixed bugs, and optimized scroll behavior on mobile after deployment.
 
 ---
+
+## 📽️ Project Presentation
+
+Looking for a quick walkthrough or visual explanation?  
+👉 [Click here to view the official Project PPT](https://docs.google.com/presentation/d/16biSpjg3Cb9LjwlHpnhPdEzIFVAuvVer/edit?usp=drive_link)
+
+It includes an overview of:
+- Features & architecture
+- Tech stack insights
+- Deployment visuals
+- Project evolution and more!
+
+---
+
 
 
 ## 🌐 Live Demo
